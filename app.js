@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
+const port = process.env.PORT || 3000;
 
 
 
@@ -31,6 +32,6 @@ app.get("/project",function(req,res){
     res.render(__dirname+"/views/project");
 })
 
-app.listen("3000",function(){
+app.listen(port,function(){
     console.log("server running on port 3000");
 })
