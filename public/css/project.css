@@ -1,0 +1,17 @@
+.pro-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+.image{
+    width: 80%;
+    margin-top: 2.5%;  
+    margin-bottom: 2.5%;
+    margin-left: 9%; 
+}
+@media screen and (min-width:1400px) {
+    .image{
+        margin-left: 11%;
+    }
+}

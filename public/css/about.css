@@ -1,0 +1,55 @@
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    flex-direction: column;
+}
+.women-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-page-img{
+    width: 50%;
+}
+.about-desc{
+    margin-top: 3%;
+}
+.about-name{
+    font-weight: 500;
+    text-decoration: underline 2px;
+}
+.about-hr-tag{
+    color: black;
+    width: 80%;
+    font-size: 600;
+}
+
+@media screen and (min-width:1000px) {
+   .about-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    }  
+    .women-section{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .about-img-div{
+        width: 50%;
+    }
+    .about-hr-tag{
+        display: none;
+    }
+    .men-section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
